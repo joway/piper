@@ -4,9 +4,17 @@
 
 A simple api gateway for simple use case .
 
-### Feature
+## Feature
 
-- depends on a simple database
-- manage ssl certificate
-- manage api route
-- iam support
+### Metric
+
+- log file
+- [influxdb]
+
+### Let's Encrypt automation
+
+When you enable `lse_ssl` option , Piper will auto create and update your domain's ssl certificate from [Let's Encrypt](https://letsencrypt.org) .
+
+### Built-In IAM
+
+You can create user and manage their policy . Piper will pass user info in HTTP Headers to backend service .
