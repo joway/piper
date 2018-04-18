@@ -1,0 +1,14 @@
+.git
+.DS_Store
+Dockerfile
+.gitignore
+README.md
+
+client_body_temp
+fastcgi_temp
+logs
+proxy_temp
+tmp
+uwsgi_temp
+
+conf/nginx.conf
